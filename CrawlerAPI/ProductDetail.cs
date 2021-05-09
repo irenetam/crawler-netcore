@@ -7,8 +7,10 @@ namespace CrawlerAPI
 {
     public class ProductDetail
     {
-        public string Title { get; set; }
-        public int Score { get; set; }
-        public int NumberOfRating { get; set; }
+
+        public decimal? average { get; set; }
+        public decimal? rateCount { get; set; }
+        public decimal? reviewCount { get; set; }
+        public int[] scores { get; set; }
     }
 }
