@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using System.Threading;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
-using Jurassic.Library;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Nancy.Json;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace CrawlerAPI.Controllers
@@ -46,6 +41,7 @@ namespace CrawlerAPI.Controllers
                 "https://www.lazada.vn/products/kem-duong-trang-min-va-giam-tham-nam-ban-ngay-loreal-paris-white-perfect-clinical-day-spf-19pa-50ml-kem-ngay-i258034260-s357408006.html?spm=a2o4n.searchlistcategory.list.44.189e6e337sQnak&search=1",
                 "https://www.lazada.vn/products/tinh-chat-hong-7-loai-vitamin-b-phuc-hoi-va-lam-sang-da-cnp-laboratory-vita-b-energy-ampule-15ml-i343772004-s556812780.html?spm=a2o4n.searchlistcategory.list.68.189e6e337sQnak&search=1",
                 "https://www.lazada.vn/products/bo-duong-trang-klairs-serum-vitamin-c-va-kem-duong-2-in1-freshly-juiced-i867290587-s2467756196.html?spm=a2o4n.searchlistcategory.list.76.189e6e337sQnak&search=1",
+                "https://tiki.vn/son-duong-dior-addict-lip-glow-004-coral-3-5g-p72186695.html?spid=82956493",
                 "https://tiki.vn/son-duong-dior-addict-lip-glow-004-coral-3-5g-p72186695.html?spid=82956493",
                 "https://www.sendo.vn/khau-trang-y-te-4-lop-cao-cap-loai-1-khang-khuan-50-caihop-chauducmedi-chuan-iso-41907426.html?fromItem=68012048&source_block_id=flash-sale&source_page_id=flash-sale&source_position=2&source_slot_id=50214129&source_category_group_id=0&source_info=desktop2_60_1620696832645_4620b0f4-14fa-4189-bab2-d7b28b47687b__default__2__",
                 "https://www.sendo.vn/ban-de-may-tinh-ban-lam-viec-20168135.html?source_block_id=listing_products&source_info=desktop2_60_1620697616216_4620b0f4-14fa-4189-bab2-d7b28b47687b_5_algo13_0_9_7_-1&source_page_id=cate3_listing_v2_desc"

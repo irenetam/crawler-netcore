@@ -10,17 +10,17 @@
   },
   "profiles": {
     "IIS Express": {
-        "commandName": "IISExpress",
-        "launchBrowser": true,
-        "launchUrl": "crawler",
-        "environmentVariables": {
-            "ASPNETCORE_ENVIRONMENT": "Development"
-        }
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     },
     "CrawlerAPI": {
         "commandName": "Project",
         "launchBrowser": true,
-        "launchUrl": "crawler",
+        "launchUrl": "api",
         "applicationUrl": "http://localhost:5000",
         "environmentVariables": {
             "ASPNETCORE_ENVIRONMENT": "Development"
