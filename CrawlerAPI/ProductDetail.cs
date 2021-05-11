@@ -8,9 +8,11 @@ namespace CrawlerAPI
     public class ProductDetail
     {
 
-        public decimal? average { get; set; }
-        public decimal? rateCount { get; set; }
-        public decimal? reviewCount { get; set; }
-        public int[] scores { get; set; }
+        public decimal? Rating { get; set; }
+        public decimal? RateCount { get; set; }
+        public decimal? ReviewCount { get; set; }
+        public int[] Scores { get; set; }
+        public string Url { get; set; }
+        public bool? IsMall { get; set; }
     }
 }
